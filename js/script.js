@@ -6,3 +6,7 @@ function clock(){
     },1000)
 }
 clock();
+
+$('.btn btn-primary').on('shown.bs.modal', function () {
+    $('.modal').trigger('focus')
+  })
